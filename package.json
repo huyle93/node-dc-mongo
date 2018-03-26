@@ -2,6 +2,9 @@
   "name": "starter-node-angular",
   "main": "server.js",
   "version": "1.0.1",
+  "scripts": {
+    "start": "nodemon ./server.js localhost 8080"
+  },
   "dependencies": {
     "body-parser": "~1.4.2",
     "express": "~4.5.1",
